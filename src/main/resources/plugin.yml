@@ -1,0 +1,19 @@
+name: logCaptcha
+author: ToFastForYou
+main: de.tofastforyou.logcaptcha.LogCaptcha
+version: 2.12.11
+api-version: 1.13
+commands:
+     captcha:
+          description: captcha
+          aliases: [cp]
+     logcaptcha:
+          description: logcaptcha
+          aliases: [lc]
+     captchaprove:
+          description: captchaprove to prove captcha
+     logcaptchaadmin:
+          description: logcaptchaadmin
+          aliases: [la, loga, manage, lca]
+     logban:
+          description: logban only for the mangament gui
